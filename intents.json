@@ -1,0 +1,89 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning",
+                "good evening",
+                "is anyone there"
+            ],
+            "responses": [
+                "Hello! I am the IIITD chatbot. Ask me about courses, fees, placements, or campus facilities!"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "where is the campus",
+                "iiitd address",
+                "how to reach college",
+                "location"
+            ],
+            "responses": [
+                "The campus is located in Okhla Phase-III, near Nehru Place and the Govindpuri Metro Station."
+            ]
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "what is the fee",
+                "how much does btech cost",
+                "tuition structure",
+                "hostel fees",
+                "btech"
+            ],
+            "responses": [
+                "Website data states:  Note: Tuition fee will be paid in two equal installments. Schedule of Payment (i) At the time of accepting offer of admission (semester 1) (ii) At the start of 2nd Semester 2. Hostel Fee Structure Note: Tuition fee will be paid in two equal installments. Schedule of Payment (i) At the time of accepting offer of admission (semester 1) (ii) At the start of 2nd Semester 2. Hostel Fee Structure Fee schedule of Winter 2023 for B.Tech. 1st year students||Fee Payment Schedule for AY 2022-23||Payment P"
+            ]
+        },
+        {
+            "tag": "placements",
+            "patterns": [
+                "highest placement",
+                "placement stats",
+                "average package",
+                "placement"
+            ],
+            "responses": [
+                "Recent placement info:  IIIT-Delhi provides a platform to facilitate interaction between students and companies, so both can find the best match as per their aspirations and requirements. Our Graduates are a combination of rigorous thinking, hard work and fundamentals. The campus promotes a host of student activities to improve their soft skills, which are imperative for one to excel in his/ her work space. Besides, campus is abuzz with activities of various student clubs and organizations. We highly value our partner"
+            ]
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "what facilities are there",
+                "is there a gym",
+                "campus amenities"
+            ],
+            "responses": [
+                "The campus has separate hostels, a common mess, cafeterias, a 24x7 library, a gym, an infirmary, an HDFC ATM, and sports courts."
+            ]
+        },
+        {
+            "tag": "attendance",
+            "patterns": [
+                "attendance criteria",
+                "what is the attendance rule",
+                "minimum attendance"
+            ],
+            "responses": [
+                "Attendance is taken in all core courses. Students having less than 75% attendance in core courses are issued a warning."
+            ]
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "what courses are running",
+                "programmes offered",
+                "courses",
+                "programme"
+            ],
+            "responses": [
+                "IIITD offers B.Tech programs in CSE and ECE, M.Tech programs in CSE and ECE, and PhD programs."
+            ]
+        }
+    ]
+}
