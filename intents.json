@@ -18,71 +18,131 @@
             "tag": "location",
             "patterns": [
                 "where is the campus",
-                "iiitd address",
-                "how to reach college",
+                "location of university",
+                "address",
+                "how to reach",
                 "location"
             ],
             "responses": [
-                "The campus is located in Okhla Phase-III, near Nehru Place and the Govindpuri Metro Station."
+                "IIIT-Delhi is located in Okhla Industrial Estate, Phase III, New Delhi - 110020, near the Govindpuri Metro Station and Nehru Place."
+            ]
+        },
+        {
+            "tag": "affiliation",
+            "patterns": [
+                "is iiitd affiliated to ugc",
+                "aicte approval",
+                "university status",
+                "is it a state university",
+                "affiliation"
+            ],
+            "responses": [
+                "IIIT-Delhi is a State University established by the Delhi Government. It is recognized by the UGC under section 2(f) and 12(B) of the UGC Act and is approved by AICTE."
+            ]
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "courses running in university",
+                "what programs are offered",
+                "btech branches",
+                "mtech specializations",
+                "courses offered",
+                "courses"
+            ],
+            "responses": [
+                "The university offers B.Tech programs in CSE, ECE, CSAM, CSD, CSSS, CSB, CSAI, EVE, and CSEcon. It also offers M.Tech programs in CSE, ECE, and CB, alongside Ph.D. and PG Diploma programs."
+            ]
+        },
+        {
+            "tag": "highest_placement",
+            "patterns": [
+                "courses giving highest placement",
+                "highest package branch",
+                "top placement stats",
+                "highest placement",
+                "placement"
+            ],
+            "responses": [
+                "For the 2025 season, B.Tech CSE and CSAM branches yielded the highest placements. The highest domestic package was \u20b951.31 LPA and the highest overseas package was \u20b9107 LPA. CSAM had a 98.28% placement rate."
             ]
         },
         {
             "tag": "fees",
             "patterns": [
-                "what is the fee",
-                "how much does btech cost",
-                "tuition structure",
-                "hostel fees",
-                "btech"
+                "fees of all courses",
+                "what is the tuition fee",
+                "btech cost",
+                "mtech fees",
+                "fees structure",
+                "fees"
             ],
             "responses": [
-                "Website data states:  Note: Tuition fee will be paid in two equal installments. Schedule of Payment (i) At the time of accepting offer of admission (semester 1) (ii) At the start of 2nd Semester 2. Hostel Fee Structure Note: Tuition fee will be paid in two equal installments. Schedule of Payment (i) At the time of accepting offer of admission (semester 1) (ii) At the start of 2nd Semester 2. Hostel Fee Structure Fee schedule of Winter 2023 for B.Tech. 1st year students||Fee Payment Schedule for AY 2022-23||Payment P"
+                "For the 2025-2026 academic year, the total B.Tech tuition fee is approximately \u20b919.55 Lakhs. M.Tech tuition ranges between \u20b93.7 Lakhs to \u20b96 Lakhs. Scraped data states:  Note: Tuition fee will be paid in two equal installments. Schedule of Payment (i) At the time of accepting offer of admission (semester 1) (ii) At the start of 2nd Semester 2. Hostel Fee Structure Note: Tuition fee will be paid in two equal installments. Schedule of Payment (i) At the time of accepting offer of admission (semester 1) (ii) At the start of 2nd Semester 2. Hostel Fee Structure Fee schedule of Winter 2023 for B.Tech. 1st year students||Fee Payment Schedule for AY 2022-23||Payment P"
             ]
         },
         {
-            "tag": "placements",
+            "tag": "industry_partners",
             "patterns": [
-                "highest placement",
-                "placement stats",
-                "average package",
-                "placement"
+                "industry partners",
+                "top recruiters",
+                "companies visiting campus",
+                "who hires from iiitd"
             ],
             "responses": [
-                "Recent placement info:  IIIT-Delhi provides a platform to facilitate interaction between students and companies, so both can find the best match as per their aspirations and requirements. Our Graduates are a combination of rigorous thinking, hard work and fundamentals. The campus promotes a host of student activities to improve their soft skills, which are imperative for one to excel in his/ her work space. Besides, campus is abuzz with activities of various student clubs and organizations. We highly value our partner"
+                "Top industry partners and recruiters include Google, Microsoft, Amazon, Goldman Sachs, Uber, Adobe, Oracle, Qualcomm, Samsung, and TCS."
             ]
         },
         {
-            "tag": "facilities",
+            "tag": "timings",
             "patterns": [
-                "what facilities are there",
-                "is there a gym",
-                "campus amenities"
+                "college timings",
+                "when do classes start",
+                "institute hours",
+                "timings of classes",
+                "timings",
+                "time"
             ],
             "responses": [
-                "The campus has separate hostels, a common mess, cafeterias, a 24x7 library, a gym, an infirmary, an HDFC ATM, and sports courts."
+                "Academic classes generally commence at 9:00 AM. Specific lecture timings depend on the individual student's course schedule."
             ]
         },
         {
             "tag": "attendance",
             "patterns": [
                 "attendance criteria",
-                "what is the attendance rule",
-                "minimum attendance"
+                "minimum attendance rule",
+                "what happens if attendance is low",
+                "attendance"
             ],
             "responses": [
-                "Attendance is taken in all core courses. Students having less than 75% attendance in core courses are issued a warning."
+                "Attendance is mandatory for core courses. Students who fall below the 75% attendance threshold in core courses are issued a formal warning."
             ]
         },
         {
-            "tag": "courses",
+            "tag": "facilities",
             "patterns": [
-                "what courses are running",
-                "programmes offered",
-                "courses",
-                "programme"
+                "campus facilities",
+                "what amenities are there",
+                "is there a gym or library",
+                "facilities in the campus",
+                "facilities"
             ],
             "responses": [
-                "IIITD offers B.Tech programs in CSE and ECE, M.Tech programs in CSE and ECE, and PhD programs."
+                "The campus features separate hostels for boys and girls, a common mess, cafeterias, a 24x7 library with reading rooms, an infirmary, a gym, an HDFC ATM, and various sports courts."
+            ]
+        },
+        {
+            "tag": "advanced_labs",
+            "patterns": [
+                "advanced labs queries",
+                "research centers",
+                "what labs are available",
+                "tell me about the labs",
+                "labs"
+            ],
+            "responses": [
+                "IIIT-Delhi houses over 30 advanced research centers and labs, including the Centre for Quantum Technology, Infosys Centre for AI, Human-Machine Interaction Lab, Creative Interfaces Lab, and the Advanced Multicore Systems Lab."
             ]
         }
     ]
